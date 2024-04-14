@@ -7,9 +7,9 @@ const SignIn = () => {
   return (
     <>
       <div className={StyleSignIn.container}>
-        <div className={StyleSignIn.innerContainer}>
+        <div>
           <div className={StyleSignIn.login}>
-            Signin to your <br /> PopX account
+          &nbsp;&nbsp;Signin to your <br />&nbsp;&nbsp;PopX account
           </div>
           <div>
           <div>
