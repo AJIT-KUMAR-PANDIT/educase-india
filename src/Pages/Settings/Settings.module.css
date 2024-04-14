@@ -33,10 +33,6 @@
     align-items: center;
 }
 
-.userProffile {
-    width: 111px;
-}
-
 .proffile {
     display: flex;
     gap: 21px;

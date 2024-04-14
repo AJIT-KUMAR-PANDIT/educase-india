@@ -1,6 +1,7 @@
 import React from "react";
 import StyleSettings from "./Settings.module.css";
-import userProffile from "../../assets/img/userProffile.png";
+import Proffile from "../../Components/Proffile/Proffile";
+
 
 const Settings = () => {
   return (
@@ -12,12 +13,12 @@ const Settings = () => {
         <br/>
         <div className={StyleSettings.proffile}>
             <div>
-                <img src={userProffile} alt="userProffile" className={StyleSettings.userProffile}/>
+                <Proffile/>
             </div>
             <div>
-                <span className={StyleSettings.userName}>John Doe</span>
+                <span className={StyleSettings.userName}>Marry Doe</span>
                 <br/>
-                <span className={StyleSettings.userEmail}>jLXjF@example.com</span>
+                <span className={StyleSettings.userEmail}>Marry@Gmail.Com</span>
             </div>
         </div>
         <br/>
