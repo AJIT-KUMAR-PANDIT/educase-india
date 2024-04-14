@@ -1,0 +1,49 @@
+.container {
+    padding: 11px;
+}
+
+.input {
+    top: 204px;
+    left: 20px;
+    width: 335px;
+    height: 40px;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+
+.input::placeholder{
+    padding-left: 11px;
+}
+
+
+.label {
+    top: 195px;
+    left: 34px;
+    width: 111px;
+    height: 15px;
+    text-align: left;
+    font: normal normal normal 13px/17px Rubik;
+    letter-spacing: 0px;
+    color: #6C25FF;
+    opacity: 1;
+
+    background-color: white;
+
+    display: block;
+
+    position: relative;
+    z-index: 1;
+    top: 3px;
+    bottom: auto !important;
+}
+
+@media (max-width: 320px) {
+    .input {
+        width: 100%;
+        min-width: 291px;
+        max-width: 335px;
+        margin: 0 auto;
+    }
+}
