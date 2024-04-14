@@ -14,23 +14,23 @@ const SignUp = () => {
           <div>
           <div>
             {" "}
-            <Input label={"Full Name*"}  placeholder={"Enter Email Address"}/>
+            <Input label={"Full Name"}  placeholder={"Enter Full Name"} required={true}/>
           </div>
           <div>
             {" "}
-            <Input label={"Phone number*"}placeholder={"Enter Password"} />
+            <Input label={"Phone number"}placeholder={"Enter Phone number"} required={true}/>
           </div>
           <div>
             {" "}
-            <Input label={"Email address*"}placeholder={"Enter Password"} />
+            <Input label={"Email address"}placeholder={"Enter Email address"} required={true}/>
           </div>
           <div>
             {" "}
-            <Input label={"Password *"}placeholder={"Enter Password"} />
+            <Input label={"Password"}placeholder={"Enter Password"} required={true}/>
           </div>
           <div>
             {" "}
-            <Input label={"Company name"}placeholder={"Enter Password"} />
+            <Input label={"Company name"}placeholder={"Enter Company name"} />
           </div>
           <div className={StyleSignUp.buttons}>
           {" "}

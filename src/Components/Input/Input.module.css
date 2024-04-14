@@ -13,10 +13,17 @@
 }
 
 
-.input::placeholder{
+.input::placeholder {
     padding-left: 11px;
 }
 
+.requiredClass {
+    color: #DD4A3D;
+}
+
+.hide {
+    display: none;    
+}
 
 .label {
     top: 195px;
