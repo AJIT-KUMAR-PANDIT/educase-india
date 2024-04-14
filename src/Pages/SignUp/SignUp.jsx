@@ -34,6 +34,7 @@ const SignUp = () => {
           </div>
           <div className={StyleSignUp.buttons}>
           {" "}
+          <br/>
             <Buttons buttonColor={"#CBCBCB 0% 0% no-repeat padding-box"} textColor={"#FFFFFF"} text={"Login"}/>
           </div>
           </div>

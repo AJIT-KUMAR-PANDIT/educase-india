@@ -5,9 +5,9 @@ const Input = ({label, placeholder, required}) => {
   return (
     <>
       <div className={StyleInput.container}>
-        <label for="email" className={StyleInput.label}>&nbsp;&nbsp;&nbsp;{label}{
+        <label for="email" className={StyleInput.label}>{label}{
           <span className={required? StyleInput.requiredClass : StyleInput.hide}>*</span>
-        }&nbsp;&nbsp;&nbsp;</label>
+        }</label>
         <input type="text" className={StyleInput.input} placeholder={placeholder} />
       </div>
     </>

@@ -43,6 +43,7 @@
     position: relative;
     z-index: 1;
     top: 3px;
+    left: 13px;
     bottom: auto !important;
 }
 
