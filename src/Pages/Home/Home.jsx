@@ -1,5 +1,6 @@
 import React from "react";
 import StyleHome from "./Home.module.css";
+import Buttons from "../../Components/Buttons/Buttons";
 
 const Home = () => {
   return (
@@ -12,18 +13,10 @@ const Home = () => {
             <br /> consectetur adipiscing elit,
           </div>
           <div>
-            <button className={StyleHome.createAccountButton}>
-              <span className={StyleHome.createAccountText}>
-                Create Account
-              </span>
-            </button>
+            <Buttons buttonColor={"#6C25FF 0% 0% no-repeat padding-box"} textColor={"#FFFFFF"} text={"Create Account"}/>
           </div>
           <div>
-            <button className={StyleHome.loginButton}>
-              <span className={StyleHome.loginText}>
-                Already Registered? Login
-              </span>
-            </button>
+            <Buttons buttonColor={"#6C25FF4B 0% 0% no-repeat padding-box"} textColor={"#1D2226"} text={"Already Registered? Login"}/>
           </div>
         </div>
       </div>

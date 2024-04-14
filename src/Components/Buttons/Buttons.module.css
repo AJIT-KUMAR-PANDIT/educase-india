@@ -1,0 +1,26 @@
+.button {
+    top: 669px;
+    left: 20px;
+    width: 335px;
+    height: 46px;
+    border-radius: 6px;
+    opacity: 1;
+    border-color: transparent;
+}
+
+.buttonText {
+    top: 683px;
+    left: 127px;
+    width: 120px;
+    height: 19px;
+    text-align: center;
+    font: normal normal medium 16px/17px Rubik;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+button{
+    cursor: pointer;
+  }
+
+  

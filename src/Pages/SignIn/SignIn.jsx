@@ -1,6 +1,7 @@
 import React from "react";
 import Input from "../../Components/Input/Input";
 import StyleSignIn from "./SignIn.module.css";
+import Buttons from "../../Components/Buttons/Buttons";
 
 const SignIn = () => {
   return (
@@ -18,6 +19,10 @@ const SignIn = () => {
           <div>
             {" "}
             <Input label={"Password"}placeholder={"Enter Password"} />
+          </div>
+          <div className={StyleSignIn.buttons}>
+          {" "}
+            <Buttons buttonColor={"#CBCBCB 0% 0% no-repeat padding-box"} textColor={"#FFFFFF"} text={"Login"}/>
           </div>
           </div>
         </div>
