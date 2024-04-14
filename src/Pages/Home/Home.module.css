@@ -55,14 +55,3 @@
     opacity: 1;
     border-color: transparent;
 }
-
-
-@media (max-width: 320px) {
-    .createAccountButton,
-    .loginButton {
-        width: 100%;
-        min-width: 311px;
-        max-width: 335px; 
-        margin: 0 auto; 
-    }
-}

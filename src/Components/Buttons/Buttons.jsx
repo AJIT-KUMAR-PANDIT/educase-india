@@ -4,7 +4,7 @@ import StyleButtons from "./Buttons.module.css";
 const Buttons = ({buttonColor, textColor, text}) => {
   return (
     <>
-      <div>
+      <div className={StyleButtons.container}>
         <button className={StyleButtons.button} style={{background: buttonColor}}>
           <span className={StyleButtons.buttonText} style={{color: textColor}}>{text}</span>
         </button>

@@ -1,3 +1,7 @@
+.container{
+padding-left: 13px;
+}
+
 .button {
     top: 669px;
     left: 20px;
@@ -24,3 +28,11 @@ button{
   }
 
   
+  @media (max-width: 320px) {
+    .button {
+        width: 100%;
+        min-width: 311px;
+        max-width: 311px; 
+        margin: 0 auto; 
+    }
+}

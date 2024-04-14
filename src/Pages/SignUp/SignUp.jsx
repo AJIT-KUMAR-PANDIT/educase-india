@@ -9,7 +9,7 @@ const SignUp = () => {
       <div className={StyleSignUp.container}>
         <div className={StyleSignUp.innerContainer}>
           <div className={StyleSignUp.login}>
-          Create your <br/> PopX account
+          &nbsp;&nbsp;Create your <br/>&nbsp;&nbsp;PopX account
           </div>
           <div>
           <div>
