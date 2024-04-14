@@ -11,6 +11,7 @@ const SignIn = () => {
           <div className={StyleSignIn.login}>
           &nbsp;&nbsp;Signin to your <br />&nbsp;&nbsp;PopX account
           </div>
+          <br/>
           <div>
           <div>
             {" "}
