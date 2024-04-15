@@ -9,22 +9,37 @@ const SignIn = () => {
       <div className={StyleSignIn.container}>
         <div>
           <div className={StyleSignIn.login}>
-          &nbsp;&nbsp;Signin to your <br />&nbsp;&nbsp;PopX account
+            &nbsp;&nbsp;Signin to your <br />
+            &nbsp;&nbsp;PopX account
           </div>
-          <br/>
+          <br />
           <div>
-          <div>
-            {" "}
-            <Input label={"Email Address"}  placeholder={"Enter Email Address"}/>
-          </div>
-          <div>
-            {" "}
-            <Input label={"Password"}placeholder={"Enter Password"} />
-          </div>
-          <div className={StyleSignIn.buttons}>
-          {" "}
-            <Buttons buttonColor={"#CBCBCB 0% 0% no-repeat padding-box"} textColor={"#FFFFFF"} text={"Login"}/>
-          </div>
+            <div>
+              {" "}
+              <Input
+                label={"Email Address"}
+                placeholder={"Enter Email Address"}
+                type={"email"}
+              />
+            </div>
+            <div>
+              {" "}
+              <Input
+                label={"Password"}
+                placeholder={"Enter Password"}
+                type={"password"}
+              />
+            </div>
+            <div className={StyleSignIn.buttons}>
+              {" "}
+              <a href="/settings">
+                <Buttons
+                  buttonColor={"#CBCBCB 0% 0% no-repeat padding-box"}
+                  textColor={"#FFFFFF"}
+                  text={"Login"}
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>

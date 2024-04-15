@@ -20,6 +20,7 @@ const SignUp = () => {
                 label={"Full Name"}
                 placeholder={"Enter Full Name"}
                 required={true}
+                type={"text"}
               />
             </div>
             <div>
@@ -28,6 +29,7 @@ const SignUp = () => {
                 label={"Phone number"}
                 placeholder={"Enter Phone number"}
                 required={true}
+                type={"number"}
               />
             </div>
             <div>
@@ -36,6 +38,7 @@ const SignUp = () => {
                 label={"Email address"}
                 placeholder={"Enter Email address"}
                 required={true}
+                type={"email"}
               />
             </div>
             <div>
@@ -44,6 +47,7 @@ const SignUp = () => {
                 label={"Password"}
                 placeholder={"Enter Password"}
                 required={true}
+                type={"password"}
               />
             </div>
             <div>
@@ -51,12 +55,14 @@ const SignUp = () => {
               <Input
                 label={"Company name"}
                 placeholder={"Enter Company name"}
+                type={"text"}
               />
             </div>
             <div>
               &nbsp;&nbsp;&nbsp;
               <span className={StyleSignUp.agencyText}>
-                Are you an Agency?<span className={StyleSignUp.required}>*</span>
+                Are you an Agency?
+                <span className={StyleSignUp.required}>*</span>
                 <br />
                 &nbsp;&nbsp; <input type="radio" />
                 <label>Yes</label>
@@ -67,12 +73,16 @@ const SignUp = () => {
             </div>
             <div className={StyleSignUp.buttons}>
               {" "}
-              <br /><br /><br />
-              <Buttons
-                buttonColor={"#6C25FF 0% 0% no-repeat padding-box"}
-                textColor={"#FFFFFF"}
-                text={"Create Account"}
-              />
+              <br />
+              <br />
+              <br />
+              <a href="/login">
+                <Buttons
+                  buttonColor={"#6C25FF 0% 0% no-repeat padding-box"}
+                  textColor={"#FFFFFF"}
+                  text={"Create Account"}
+                />
+              </a>
             </div>
           </div>
         </div>

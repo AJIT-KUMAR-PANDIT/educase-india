@@ -1,14 +1,14 @@
 import React from "react";
 import StyleInput from "./Input.module.css";
 
-const Input = ({label, placeholder, required}) => {
+const Input = ({label, placeholder, required, type}) => {
   return (
     <>
       <div className={StyleInput.container}>
-        <label for="email" className={StyleInput.label}>{label}{
+        <label className={StyleInput.label}>{label}{
           <span className={required? StyleInput.requiredClass : StyleInput.hide}>*</span>
         }</label>
-        <input type="text" className={StyleInput.input} placeholder={placeholder} />
+        <input type={type} className={StyleInput.input} placeholder={" "+placeholder} />
       </div>
     </>
   );
